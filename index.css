@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: gainsboro;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.header {
+    margin-right: 30px;
+    width: 80%;
+}
+
+.header h1 {
+    font-size: 70px;
+}
+
+.header h3 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    min-width: 300px;
+
+}
+
+.header input {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: #333;
+    border-radius: 32px;
+    outline: none;
+}
+
+.header #checkGit {
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.header a {
+    color: inherit;
+}
+
+.services div {
+    margin-bottom: 20px;
+    padding: 12px;
+    
+    border-radius: 6px;
+    width: 100%;
+}
+
+.services h3 {
+    font-size: 23px;
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        display:block;
+        padding: 20px;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .header h3{
+        font-size: 20px;
+    }
+    .header p{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+   .header input{
+        width: 70%;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .services div{
+        padding: 0;
+    }
+    .header #checkGit{
+        position: relative;
+        margin-top: 100vh;
+    }
+  }
+  footer{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
